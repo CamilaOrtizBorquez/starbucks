@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+.header{
+    background: #006241;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header__logo{
+    width: 30px;
+}
+
+.header__nav, .header__user{
+    display: none;
+}
+
+.header__container-user-mobile i{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.main__container-logo{
+    display: none;
+}
+
+.main{
+    padding: 15px 15px 60px;
+    margin-top: 80px;
+}
+
+.main__container-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.main__title span{
+    color: #006241;
+}
+
+.main__description{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.gallery{
+    background: #006241;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__img{
+    width: 85%;
+    margin-top: 15px;
+}
+
+.contact{
+    background: #0e0e0e;
+    padding: 40px 15px;
+}
+
+.contact__title{
+    color: #006241;
+    text-align: center;
+}
+
+.contact__form{
+    background: #006241;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.contact__input{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__input label{
+    font-size: 14px;
+}
+
+
+
+
+
+img{
+    width: 30px;
+}
